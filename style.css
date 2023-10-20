@@ -91,3 +91,148 @@ img[src="images/twtrlogo.png"],
 img[src="images/iglogo5.png"] {
     transition: filter 0.3s ease; /* Smooth transition effect */
 }
+@media screen and (min-device-width:300px) and (max-device-width:399px){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    body{
+        background-image: url("images/bg-mobile.svg");
+        background-repeat: no-repeat;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .main-bx{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .row1, .row2, .column{
+        position: static;
+        width: 100vw;
+    }
+    body > img[src="images/bg-desktop.svg"]{
+        visibility: hidden;
+    }
+    .img1{
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+        height: 10vw;
+    }
+    .row1 > img{
+        top: -10vw;
+        left: 10vw;
+    }
+    img[src="images/illustration-mockups.svg"]{
+        height: 60vw;
+        width: 80vw;
+        position: relative;
+        top: 5vw;
+        left: -8vw;
+    }
+    .column > h1{
+        font-size: 7vw;
+        margin-right: -20vw;
+        text-align: center;
+        position: relative;
+        top: 20vw;
+        left: -8vw;
+    }
+    .column > p{
+        margin-right: -35vw;
+        text-align: center;
+        top: 30vw;
+        left: -18vw;
+        font-size: 4.7vw;
+    }
+    .column > .logos{
+        position: relative;
+        top: -39vw;
+        left: -81vw;
+    }
+    .column > button{
+        height: 10vw; 
+        top: 38vw;
+        left: 5vw;
+    }
+    .main-bx,
+    .row2,
+    .column{
+        width: 61vw;
+    }
+}
+@media screen and (min-device-width:400px) and (max-device-width:499px){
+    *{
+        margin: 0vw;
+        padding: 0vw;
+    }
+    body{
+        background-image: url("images/bg-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    html,body{
+        overflow-x: hidden;
+    }
+    .main-bx{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .row1, .row2, .column{
+        position: static;
+        width: 100vw;
+    }
+    body > img[src="images/bg-desktop.svg"]{
+        visibility: hidden;
+    }
+    .img1{
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+        height: 10vw;
+    }
+    .row1 > img{
+        top: -10vw;
+        left: 10vw;
+    }
+    img[src="images/illustration-mockups.svg"]{
+        height: 60vw;
+        width: 80vw;
+        position: relative;
+        top: 5vw;
+        left: -8vw;
+    }
+    .column > h1{
+        font-size: 7vw;
+        margin-right: -20vw;
+        text-align: center;
+        position: relative;
+        top: 20vw;
+        left: -8vw;
+    }
+    .column > p{
+        margin-right: -35vw;
+        text-align: center;
+        top: 30vw;
+        left: -15vw;
+        font-size: 4.7vw;
+    }
+    .column > .logos{
+        position: relative;
+        top: -30vw;
+        left: -70vw;
+    }
+    .column > button{
+        height: 10vw; 
+        top: 38vw;
+        left: 9vw;
+    }
+    .main-bx,
+    .row2,
+    .column{
+        width: 61vw;
+    }
+}
